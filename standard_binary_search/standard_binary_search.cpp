@@ -10,7 +10,7 @@
  * @param key the target value to find in the array.
  * @return the index of the target value, -1 if it is not present
  */
-int Standard_Binary_Search::standard_binary_search(const vector<int>& array, const int key) {
+int Standard_Binary_Search::standard_binary_search(const vector<int> &array, const int key) {
     const int array_size = static_cast<int>(array.size());
 
     if (array_size == 0) {
