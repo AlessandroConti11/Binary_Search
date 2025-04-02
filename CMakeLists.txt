@@ -3,7 +3,7 @@ project(Binary_Search)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(Binary_Search STATIC main.cpp
+add_executable(binary_search main.cpp
         adaptive_binary_search/adaptive_binary_search.cpp
         adaptive_binary_search/adaptive_binary_search.h
         boundless_binary_range_search/boundless_binary_range_search.cpp
