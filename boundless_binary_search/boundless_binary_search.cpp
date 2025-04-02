@@ -11,18 +11,18 @@
  * @return the index of the target value, -1 if it is not present.
  */
 int Boundless_Binary_Search::boundless_binary_search(const vector<int> &array, const int key) {
-    const int n = static_cast<int>(array.size());
+    const int array_size = static_cast<int>(array.size());
 
-    if (n == 0) {
+    if (array_size == 0) {
         return  -1;
     }
 
     int bottom = 0;
-    int middle = n;
+    int middle = array_size;
 
     while (middle > 1) {
         if (key >= array[bottom + (middle / 2)]) {
-            bottom = bottom + (middle / 2);
+            bottom += (middle / 2);
             middle ++;
         }
         middle /= 2;
