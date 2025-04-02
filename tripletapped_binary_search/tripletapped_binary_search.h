@@ -1,13 +1,15 @@
-//
-// Created by alessandro-conti on 02/04/25.
-//
-
 #ifndef BINARY_SEARCH_TRIPLETAPPED_BINARY_SEARCH_H
 #define BINARY_SEARCH_TRIPLETAPPED_BINARY_SEARCH_H
 
 
-class tripletapped_binary_search {
+#include <vector>
 
+using namespace std;
+
+
+class Tripletapped_Binary_Search {
+public:
+    static int tripletapped_binary_search(const vector<int> &array, const int key);
 };
 
 

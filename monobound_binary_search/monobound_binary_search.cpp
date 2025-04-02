@@ -38,11 +38,3 @@ int Monobound_Binary_Search::monobound_binary_search(const vector<int> &array, c
         return -1;
     }
 }
-
-
-#include <iostream>
-int main() {
-    vector<int> A = {1, 2, 3, 4, 5};
-
-    cout << Monobound_Binary_Search::monobound_binary_search(A, 50);
-}
