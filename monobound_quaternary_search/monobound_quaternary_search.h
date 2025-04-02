@@ -1,13 +1,16 @@
-//
-// Created by alessandro-conti on 02/04/25.
-//
-
 #ifndef BINARY_SEARCH_MONOBOUND_QUATERNARY_SEARCH_H
 #define BINARY_SEARCH_MONOBOUND_QUATERNARY_SEARCH_H
 
 
-class monobound_quaternary_search {
+#include <vector>
+#include <cmath>
 
+using namespace std;
+
+
+class Monobound_Quaternary_Search {
+public:
+    static int monobound_quaternary_search(const vector<int> &array, const int key);
 };
 
 
