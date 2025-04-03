@@ -1,13 +1,16 @@
-//
-// Created by alessandro-conti on 02/04/25.
-//
-
 #ifndef BINARY_SEARCH_BOUNDLESS_BINARY_RANGE_SEARCH_H
 #define BINARY_SEARCH_BOUNDLESS_BINARY_RANGE_SEARCH_H
 
 
-class boundless_binary_range_search {
+#include <vector>
+#include <tuple>
 
+using namespace std;
+
+
+class Boundless_Binary_Range_Search {
+public:
+    static tuple<int, int> boundless_binary_range_search(const vector<int> &array, int key);
 };
 
 
