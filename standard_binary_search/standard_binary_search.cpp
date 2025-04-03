@@ -22,7 +22,7 @@ int Standard_Binary_Search::standard_binary_search(const vector<int> &array, con
     int middle = 0;
 
     while (bottom < top) {
-        middle = top - ((top - bottom) / 2);
+        middle = top - (top - bottom) / 2;
 
         if(key < array[middle]) {
             top = middle - 1;
@@ -35,7 +35,5 @@ int Standard_Binary_Search::standard_binary_search(const vector<int> &array, con
     if (key == array[top]) {
         return top;
     }
-    else {
-        return -1;
-    }
+    return -1;
 }

@@ -9,7 +9,7 @@ using namespace std;
 
 class Monobound_Binary_Search {
 public:
-    static int monobound_binary_search(const vector<int> &array, const int key);
+    static int monobound_binary_search(const vector<int> &array, int key);
 };
 
 

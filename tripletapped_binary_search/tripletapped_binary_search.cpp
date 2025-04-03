@@ -22,7 +22,7 @@ int Tripletapped_Binary_Search::tripletapped_binary_search(const vector<int> &ar
     int middle = 0;
 
     while (top > 3) {
-        middle = (top / 2);
+        middle = top / 2;
 
         if (key >= array[bottom + middle]) {
             bottom += middle;
@@ -35,7 +35,7 @@ int Tripletapped_Binary_Search::tripletapped_binary_search(const vector<int> &ar
         top--;
 
         if (key == array[bottom + top]) {
-            return (bottom + top);
+            return bottom + top;
         }
     }
 

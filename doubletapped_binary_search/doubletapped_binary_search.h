@@ -9,7 +9,7 @@ using namespace std;
 
 class Doubletapped_Binary_Search {
 public:
-    static int doubletapped_binary_search(const vector<int> &array, const int key);
+    static int doubletapped_binary_search(const vector<int> &array, int key);
 };
 
 

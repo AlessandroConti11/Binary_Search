@@ -10,7 +10,7 @@ using namespace std;
 
 class Monobound_Quaternary_Search {
 public:
-    static int monobound_quaternary_search(const vector<int> &array, const int key);
+    static int monobound_quaternary_search(const vector<int> &array, int key);
 };
 
 

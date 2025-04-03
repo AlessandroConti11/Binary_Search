@@ -22,7 +22,7 @@ int Monobound_Binary_Search::monobound_binary_search(const vector<int> &array, c
     int middle = 0;
 
     while (top > 1) {
-        middle = (top / 2);
+        middle = top / 2;
 
         if (key >= array[bottom + middle]) {
             bottom += middle;
@@ -34,7 +34,5 @@ int Monobound_Binary_Search::monobound_binary_search(const vector<int> &array, c
     if (key == array[bottom]) {
         return bottom;
     }
-    else {
-        return -1;
-    }
+    return -1;
 }

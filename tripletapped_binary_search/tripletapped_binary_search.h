@@ -9,7 +9,7 @@ using namespace std;
 
 class Tripletapped_Binary_Search {
 public:
-    static int tripletapped_binary_search(const vector<int> &array, const int key);
+    static int tripletapped_binary_search(const vector<int> &array, int key);
 };
 
 

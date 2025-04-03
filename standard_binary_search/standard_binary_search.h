@@ -9,7 +9,7 @@ using namespace std;
 
 class Standard_Binary_Search {
 public:
-    static int standard_binary_search(const vector<int> &array, const int key);
+    static int standard_binary_search(const vector<int> &array, int key);
 };
 
 

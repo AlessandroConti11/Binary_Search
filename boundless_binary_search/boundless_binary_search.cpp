@@ -21,8 +21,8 @@ int Boundless_Binary_Search::boundless_binary_search(const vector<int> &array, c
     int middle = array_size;
 
     while (middle > 1) {
-        if (key >= array[bottom + (middle / 2)]) {
-            bottom += (middle / 2);
+        if (key >= array[bottom + middle / 2]) {
+            bottom += middle / 2;
             middle ++;
         }
         middle /= 2;
@@ -31,7 +31,5 @@ int Boundless_Binary_Search::boundless_binary_search(const vector<int> &array, c
     if (key == array[bottom]) {
         return bottom;
     }
-    else {
-        return -1;
-    }
+    return -1;
 }

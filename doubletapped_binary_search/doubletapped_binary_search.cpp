@@ -21,8 +21,8 @@ int Doubletapped_Binary_Search::doubletapped_binary_search(const vector<int> &ar
     int middle = array_size;
 
     while (middle > 2) {
-        if (key >= array[bottom + (middle / 2)]) {
-            bottom += (middle / 2);
+        if (key >= array[bottom + middle / 2]) {
+            bottom += middle / 2;
             middle ++;
         }
 
@@ -33,7 +33,7 @@ int Doubletapped_Binary_Search::doubletapped_binary_search(const vector<int> &ar
         middle --;
 
         if (key == array[bottom + middle]) {
-            return (bottom + middle);
+            return bottom + middle;
         }
     }
 
