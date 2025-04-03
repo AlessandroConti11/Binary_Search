@@ -6,7 +6,7 @@ Author: Alessandro Conti - [AlessandroConti11](https://github.com/AlessandroCont
 License: [MIT license](LICENSE).
 
 
-Tags: .
+Tags: `#adaptive_binary_search`, `#binary_search`, `#boundless_binary_range_search`, `#boundless_binary_search`, `#c++`, `#cpp`, `#doubletapped_binary_search`, `#monobound_binary_search`, `#monobound_interpolated_binary_search`, `#monobound_quaternary_search`, `#standard_binary_search`, `#tripletapped_binary_search`.
 
 
 ## Specification
